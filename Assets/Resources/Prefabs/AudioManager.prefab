@@ -1,0 +1,292 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4692929136467480882
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4692929136467480884}
+  - component: {fileID: 4692929136467480883}
+  - component: {fileID: 2902478778619649765}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4692929136467480884
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4692929136467480882}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 16.872715, y: -0.14457676, z: -16.543848}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4692929136467480883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4692929136467480882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb5c60d1961bb0747925c8995f05a40a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - soundID: 0
+    clip:
+    - {fileID: 8300000, guid: 8bda96ad711bf00418296e485e10d26e, type: 3}
+    pitch: 1
+    volume: 1
+    loop: 1
+    source: {fileID: 0}
+  - soundID: 1
+    clip:
+    - {fileID: 8300000, guid: 85453a18dc52aad469a16b7e938bc12d, type: 3}
+    pitch: 1
+    volume: 1
+    loop: 1
+    source: {fileID: 0}
+  - soundID: 2
+    clip:
+    - {fileID: 8300000, guid: e8510fb89e1b697489d63096cad66e6f, type: 3}
+    pitch: 1
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - soundID: 6
+    clip:
+    - {fileID: 8300000, guid: d6ad184d14dae4744b4df6fc90db0c21, type: 3}
+    - {fileID: 8300000, guid: aee6b71deba30fd4fbec35f795df2a71, type: 3}
+    - {fileID: 8300000, guid: d14456d925d4b414aa4e8c5c9d0ba622, type: 3}
+    pitch: 1
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - soundID: 3
+    clip:
+    - {fileID: 8300000, guid: 4e9187bf2691b664c8af54cf19b7c36d, type: 3}
+    - {fileID: 8300000, guid: fa107299c843c594da6297e0bbcf68a7, type: 3}
+    - {fileID: 8300000, guid: c30691b8df01f4040ace5707824f25d7, type: 3}
+    pitch: 1
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - soundID: 4
+    clip:
+    - {fileID: 8300000, guid: c69f29e695f795840a73343dcd50efed, type: 3}
+    - {fileID: 8300000, guid: f7c19f7d51b00e34099203f206424e6c, type: 3}
+    - {fileID: 8300000, guid: 68e7fc3c65f19b2449cc7beb9a293af9, type: 3}
+    - {fileID: 8300000, guid: fb1407bcad500d942b6284169c816996, type: 3}
+    pitch: 1
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - soundID: 5
+    clip:
+    - {fileID: 8300000, guid: 6563808168d20f14790972000a9df004, type: 3}
+    pitch: 1
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - soundID: 7
+    clip:
+    - {fileID: 8300000, guid: 794b6f69176541246bbf1b9ebf2dae11, type: 3}
+    - {fileID: 8300000, guid: 056b68226fba96948b017681fbad6295, type: 3}
+    pitch: 1
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - soundID: 26
+    clip:
+    - {fileID: 8300000, guid: 95ef19a8d63361a418472c16d5dfadcb, type: 3}
+    pitch: 1
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - soundID: 27
+    clip:
+    - {fileID: 8300000, guid: 801e0f9baea08404fafc49818f8b291a, type: 3}
+    pitch: 1
+    volume: 0.5
+    loop: 1
+    source: {fileID: 0}
+  - soundID: 8
+    clip:
+    - {fileID: 8300000, guid: 7d1a595f6b1a8604f9f746af9c0e8084, type: 3}
+    pitch: 1
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - soundID: 9
+    clip:
+    - {fileID: 8300000, guid: 110a953bf7b1f814f9873ae5255d7098, type: 3}
+    pitch: 1
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - soundID: 10
+    clip:
+    - {fileID: 8300000, guid: baaf34996d180584e8d97478be9f24d8, type: 3}
+    pitch: 1
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - soundID: 11
+    clip:
+    - {fileID: 8300000, guid: 8e7cf940a2fa99d42a27cf7e30f9458c, type: 3}
+    pitch: 1
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - soundID: 12
+    clip:
+    - {fileID: 8300000, guid: 171586de26213ec46a055b11e3bf3541, type: 3}
+    pitch: 1
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - soundID: 13
+    clip:
+    - {fileID: 8300000, guid: c6f3a5d6cacda5d40bbb8f7bcedbc054, type: 3}
+    pitch: 1
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - soundID: 14
+    clip:
+    - {fileID: 8300000, guid: 75908dcb3e2798249bbcd6a19d6be80c, type: 3}
+    pitch: 1
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - soundID: 15
+    clip:
+    - {fileID: 8300000, guid: 44925659c65a67b408ffa38abaf1955e, type: 3}
+    pitch: 1
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - soundID: 16
+    clip:
+    - {fileID: 8300000, guid: 20324b930a345144188b49ef9f374346, type: 3}
+    pitch: 1
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - soundID: 17
+    clip:
+    - {fileID: 8300000, guid: 2667fd87ca593b44c9685a478c76dc14, type: 3}
+    pitch: 1
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - soundID: 18
+    clip:
+    - {fileID: 8300000, guid: a7761dc19f437074cac7476ad6bf7fb3, type: 3}
+    pitch: 1
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - soundID: 19
+    clip:
+    - {fileID: 8300000, guid: e7d88e10804210449b69ff51390e6116, type: 3}
+    pitch: 1
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - soundID: 20
+    clip:
+    - {fileID: 8300000, guid: 60b4b373a01070f48add84c3a6f85c8a, type: 3}
+    pitch: 1
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - soundID: 21
+    clip:
+    - {fileID: 8300000, guid: 0b8d302d0cbbf50458c827b68ef88291, type: 3}
+    pitch: 1
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - soundID: 22
+    clip:
+    - {fileID: 8300000, guid: 30fcb7a9c1b1a3a4fafc4195b74f09d6, type: 3}
+    pitch: 1
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - soundID: 23
+    clip:
+    - {fileID: 8300000, guid: 8c1192e136d56d94e82a60f435d0f70b, type: 3}
+    pitch: 1
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - soundID: 24
+    clip:
+    - {fileID: 8300000, guid: 2b288eb8590999b419bca727bce1ca7d, type: 3}
+    pitch: 1
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - soundID: 25
+    clip:
+    - {fileID: 8300000, guid: 0c4810eebe413124d82068f46d1dad0b, type: 3}
+    pitch: 1
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  categories:
+  - group: {fileID: -4290988596013377315, guid: 4f3a651ab3f80a842b27c2a4c23d99e5, type: 2}
+    categoryID: 0
+  - group: {fileID: 8899982475221724726, guid: 4f3a651ab3f80a842b27c2a4c23d99e5, type: 2}
+    categoryID: 1
+  - group: {fileID: -5095187225228052805, guid: 4f3a651ab3f80a842b27c2a4c23d99e5, type: 2}
+    categoryID: 2
+  - group: {fileID: -1572303875094668892, guid: 4f3a651ab3f80a842b27c2a4c23d99e5, type: 2}
+    categoryID: 3
+  - group: {fileID: 6242610868606596728, guid: 4f3a651ab3f80a842b27c2a4c23d99e5, type: 2}
+    categoryID: 4
+--- !u!114 &2902478778619649765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4692929136467480882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Events:
+    m_Signals:
+    - {fileID: 11400000, guid: 65f2972e5d3a20146a2c8c3747b0c1b8, type: 2}
+    m_Events:
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 4692929136467480883}
+          m_TargetAssemblyTypeName: Managers.AudioManager, Assembly-CSharp
+          m_MethodName: LevelMusic
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 1
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2

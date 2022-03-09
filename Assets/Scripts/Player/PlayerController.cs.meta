@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 1cee0a24207cb8247a27d889e9316753
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - inputChannel: {fileID: 11400000, guid: 6e8c8675e73abbd4182bf829a8f0612e, type: 2}
+  - eventChannel: {fileID: 11400000, guid: fdb4b8fed280b104a88708af02d2830f, type: 2}
+  - playerStats: {fileID: 11400000, guid: 201c118e0e690d741a5e3c8e30db85ab, type: 2}
+  - groundChecker: {instanceID: 0}
+  - ceilingChecker: {instanceID: 0}
+  - frontChecker: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
